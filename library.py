@@ -304,7 +304,7 @@ def checkIfDuplicates(listOfElems,setOfElems):
             return True
         else:
             pass         
-    #return False
+    return False
 
 
 
