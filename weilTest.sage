@@ -12,7 +12,7 @@ F2.<b>=GF(2^28)
 E2=EllipticCurve(F2,[0,0,1,1,1])
 # Roots to compute homomorphism of F1 to F2
 aa=F1.modulus().roots(F2)[0][0]
-# Algebraic homomorphism for extending point one into complete extension field to compute the ate pairing
+# Algebraic homomorphism for extending point one into complete extension field to compute the ate/weil pairing
 phi=Hom(F1,F2)(aa)
 
 # Point generation for point on curve 1
