@@ -283,8 +283,7 @@ def make_keypair():
 
 # Inverts value given mpdulus
 def inv(x,modulus):
-    #inverse=pow(x,modulus-2,modulus)
-    inverse=p-x
+    inverse=pow(x,modulus-2,modulus)
     return inverse
 
 # makes invertion value of list given modulus
